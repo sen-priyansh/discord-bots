@@ -51,6 +51,6 @@ async def checkwiki(interaction: discord.Interaction, username: str):
         await interaction.response.send_message(f"{interaction.user.mention}, the Wikipedia account '{username}' does not exist.")
 
 # Run the bot with your token
-bot.run("MTMwNjkzNTI5NDMyMjI4MjU1Ng.G83CFO.m96k8SGodx2zm2grjIInXc4pxR-OkgjNue2XeU")  # Replace with your bot's token
+bot.run("TOKEN")  # Replace with your bot's token
 
 
